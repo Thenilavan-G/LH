@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="8" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test" duration-ms="60717" started-at="2021-05-13T17:46:01 IST" finished-at="2021-05-13T17:47:02 IST">
+    <groups>
+    </groups>
+    <test name="LifeHope Admin" duration-ms="60717" started-at="2021-05-13T17:46:01 IST" finished-at="2021-05-13T17:47:02 IST">
+      <class name="AdminTest.LHAdminRegression">
+        <test-method status="PASS" signature="sheetData()[pri:0, instance:AdminTest.LHAdminRegression@50d0686]" name="sheetData" is-config="true" duration-ms="35687" started-at="2021-05-13T17:45:26 IST" finished-at="2021-05-13T17:46:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sheetData -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:AdminTest.LHAdminRegression@50d0686]" name="startTest" is-config="true" duration-ms="159" started-at="2021-05-13T17:46:01 IST" finished-at="2021-05-13T17:46:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:AdminTest.LHAdminRegression@50d0686]" name="openBrowser" is-config="true" duration-ms="17025" started-at="2021-05-13T17:46:01 IST" finished-at="2021-05-13T17:46:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:AdminTest.LHAdminRegression@50d0686]" name="Login" duration-ms="42430" started-at="2021-05-13T17:46:19 IST" finished-at="2021-05-13T17:47:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:AdminTest.LHAdminRegression@50d0686]" name="closeBrowser" is-config="true" duration-ms="731" started-at="2021-05-13T17:47:01 IST" finished-at="2021-05-13T17:47:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:AdminTest.LHAdminRegression@50d0686]" name="endTest" is-config="true" duration-ms="327" started-at="2021-05-13T17:47:02 IST" finished-at="2021-05-13T17:47:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- AdminTest.LHAdminRegression -->
+    </test> <!-- LifeHope Admin -->
+  </suite> <!-- Test -->
+</testng-results>
