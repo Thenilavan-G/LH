@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test">
+    <test name="LifeHope Admin">
+        <classes>
+            <class name="AdminTest.LHAdminRegression">
+                <methods>
+                    <exclude name="Login_Validation" />
+                    <include name="Login" />
+                    <include name="Dashboard" />
+                    <include name="RecentOrderView" />
+                    <include name="OrderRequest" />
+                    <include name="TestOrders" />
+                    <include name="OrderTrack" />
+                    <include name="Settings" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

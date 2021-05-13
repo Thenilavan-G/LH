@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="LifeHope Admin(failed)" verbose="0">
+    <classes>
+      <class name="AdminTest.LHAdminRegression">
+        <methods>
+          <include name="startTest"/>
+          <include name="closeBrowser"/>
+          <include name="endTest"/>
+          <include name="OrderRequest"/>
+          <include name="OrderTrack"/>
+          <include name="sheetData"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- AdminTest.LHAdminRegression -->
+    </classes>
+  </test> <!-- LifeHope Admin(failed) -->
+</suite> <!-- Failed suite [Test] -->

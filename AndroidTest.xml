@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test">
+    <test name="LifeHopeHealth">
+        <classes>
+            <class name="AppTest.LifeHopeRegression">
+               <methods>
+                   <include name="Login_Page_UI" />
+                   <exclude name="Terms_Condition" />
+                   <exclude name="Privacy_Policy" />
+                   <include name="MobileNumber_Signup" />
+                   <include name="OTP_Page_UI" />
+                   <include name="OTP_Page" />
+                   <exclude name="Facebook_Page_UI" />
+                   <exclude name="Facebook_MobileNumber_Signup" />
+                   <exclude name="Facebook_Gmail_Signup" />
+                   <exclude name="Gmail_Page_UI" />
+                   <exclude name="Gmail_Signup" />
+                   <exclude name="Profile_Settings" />
+                   <include name="Profile_Edit"/>
+                   <include name="Quick_Health_Test" />
+                   <include name="BookA_SelfTest_COVID19PCRTest" />
+                   <include name="BookA_SelfTest_COVID19AntibodyTest" />
+                   <include name="BookA_SelfTest_RPPTest" />
+                   <include name="BookA_SelfTest_MicrobiomeTest" />
+                   <include name="BookA_InHomeTest_COVID19PCRTest" />
+                   <include name="BookA_InHomeTest_COVID19AntibodyTest" />
+                   <include name="BookA_InHomeTest_RPPTest" />
+                   <include name="BookA_InHomeTest_MicrobiomeTest" />
+                   <include name="Test_Orders_Info" />
+                   <include name="Test_Orders_Status" />
+                   <include name="Test_Orders_Track" />
+                   <include name="Lab_Results" />
+                   <include name="Vitals"/>
+                   <include name="Home_Screen_UI"/>
+                   <include name="Left_Menu"/>
+               </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

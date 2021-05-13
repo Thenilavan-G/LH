@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IntegrationTest">
+    <test name="LifeHopeHealth">
+        <classes>
+            <class name="IntegrationTest.SingleOrder">
+                <methods>
+                    <include name="loginApp" />
+                    <include name="bookTest" />
+                    <include name="leftMenu" />
+                    <include name="loginAdmin" />
+                    <include name="updateOrderStatus" />
+                    <include name="closeBrowser" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
